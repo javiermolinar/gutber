@@ -33,7 +33,7 @@ jobs:
           GOARCH: ${{ matrix.goarch }}
         run: |
           mkdir -p dist
-          bin="dist/gutberg-${GOOS}-${GOARCH}"
+          bin="dist/gutber-${GOOS}-${GOARCH}"
           if [ "${GOOS}" = "windows" ]; then
             bin="${bin}.exe"
           fi
