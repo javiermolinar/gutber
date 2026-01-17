@@ -1,4 +1,4 @@
-# gutberg
+# Gutber
 
 A no distraction terminal UI reader for Project Gutenberg books.
 <img width="1024" height="1024" alt="johannes-gutenberg-press-2" src="https://github.com/user-attachments/assets/0ea18785-992b-419a-87ae-2ca11d53fb66" />
