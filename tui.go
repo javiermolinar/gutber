@@ -477,8 +477,8 @@ func (m model) readerView() string {
 	if contentWidth == 0 {
 		contentWidth = pageLineWidth
 	}
-
-	content := lipgloss.NewStyle().Width(contentWidth).Render(page)
+	paddingLeft := 2
+	content := lipgloss.NewStyle().Width(contentWidth+paddingLeft).PaddingLeft(paddingLeft).Render(page)
 	footer := footerStyle.Render("Enter/Espacio: next  pgup: prev  +/-: size  c: chapters  b: library  s: search  q: quit")
 
 	return strings.Join([]string{header, status, "", content, "", footer}, "\n")
